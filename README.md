@@ -1,20 +1,22 @@
 vue-photo-zoom
 ====
 一个vue的查看图片并且实现了双指放大的组件。
-#Installation
+Installation
+--------
 ```
 npm install --save vue-photo-zoom
 ```
-#use
-##html
-```html
+use
+--------
+### html
+```javascript
 <template>
   <div>
     <v-zoom  v-model="show" src="xxx.png"></v-zoom>
   </div>
 </template> 
 ```
-##javascript
+### javascript
 ```
 <script>
 import vZoom from 'vue-photo-zoom';
@@ -28,10 +30,12 @@ export default {
 }
 </script>
 ```
-Prop | Required | Default | Description
-------------- | -------------
-v-model|✔|  |open or close image
-src |✔||your image url
-maxScale| | 3 | maximum ratio
-minScale| | 1 | minimum ratio
+Prop
+------
+| Prop    | Required   | Default   | Description       |
+|---------|:----------:|:---------:|:------------------|
+| v-model |     ✔      |           |open or close image|
+| src     |✔           |           |your image url     |
+| maxScale|            | 3         | maximum ratio     |
+| minScale|            | 1         | minimum ratio     |
 
