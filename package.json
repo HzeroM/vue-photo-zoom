@@ -1,0 +1,16 @@
+{
+  "name": "vue-photo-zoom",
+  "version": "1.0.0",
+  "description": "双指放大图片",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "image",
+    "zoom"
+  ],
+  "author": "ZhouJingYang",
+  "license": "ISC"
+}
