@@ -1,6 +1,7 @@
 vue-photo-zoom
 ====
 一个vue的查看图片并且实现了双指放大的组件。
+--------
 Installation
 --------
 ```
